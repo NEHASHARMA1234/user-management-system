@@ -1,8 +1,6 @@
-# Spring Boot Microservices Project
-
 ## API Endpoints
 
-### 🏷 User Operations
+### 🏷 User Endpoints Operations
 | Method | Endpoint         | Description                 |
 |--------|-----------------|------------------------------|
 | `POST` | `/register`      | Register new user           |
@@ -12,7 +10,7 @@
 | `PUT`  | `/users/{id}`    | Update user details         |
 | `DELETE` | `/users/{id}`  | Delete user                 |
 
-### 🗄 Journal Operations
+### 🗄 Journal Endpoints Operations
 | Method  | Endpoint                          | Description                  |
 |---------|----------------------------------|-------------------------------|
 | `GET`   | `/journal/all-audit-logs`       | Get all audit logs             |
