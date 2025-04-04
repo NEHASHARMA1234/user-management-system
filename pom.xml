@@ -12,7 +12,7 @@
 	</parent>
 
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<artifactId>userManagement</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>demo</name>
 	<description>Demo project for Spring Boot</description>
@@ -38,11 +38,6 @@
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
-		<!-- Database -->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-h2</artifactId>-->
-<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -88,86 +83,16 @@
 				<artifactId>spring-kafka</artifactId>
 			</dependency>
 
-		<!-- ✅ Jackson (for JSON processing) -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
 		</dependency>
 
-<!--		&lt;!&ndash; ✅ JUnit 5 &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.junit.jupiter</groupId>-->
-<!--			<artifactId>junit-jupiter</artifactId>-->
-<!--			<version>5.8.1</version>-->
-<!--			<scope>test</scope>-->
-<!--		</dependency>-->
-
-<!--		&lt;!&ndash; ✅ Mockito &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.mockito</groupId>-->
-<!--			<artifactId>mockito-core</artifactId>-->
-<!--			<version>5.8.0</version>-->
-<!--			<scope>test</scope>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>org.mockito</groupId>-->
-<!--			<artifactId>mockito-junit-jupiter</artifactId>-->
-<!--			<version>5.8.0</version>-->
-<!--			<scope>test</scope>-->
-<!--		</dependency>-->
-
-<!--			&lt;!&ndash; Spring Boot Test (for Spring Boot 3.2.x) &ndash;&gt;-->
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-starter-test</artifactId>
 				<scope>test</scope>
 			</dependency>
-
-<!--		<dependency>-->
-<!--			<groupId>org.ow2.asm</groupId>-->
-<!--			<artifactId>asm</artifactId>-->
-<!--			<version>9.6</version>-->
-<!--		</dependency>-->
-
-
-<!--			&lt;!&ndash; JUnit 5 API &ndash;&gt;-->
-<!--			<dependency>-->
-<!--				<groupId>org.junit.jupiter</groupId>-->
-<!--				<artifactId>junit-jupiter-api</artifactId>-->
-<!--				<version>5.9.3</version>-->
-<!--				<scope>test</scope>-->
-<!--			</dependency>-->
-
-<!--			&lt;!&ndash; JUnit 5 Engine (needed to run tests) &ndash;&gt;-->
-<!--			<dependency>-->
-<!--				<groupId>org.junit.jupiter</groupId>-->
-<!--				<artifactId>junit-jupiter-engine</artifactId>-->
-<!--				<version>5.9.3</version>-->
-<!--				<scope>test</scope>-->
-<!--			</dependency>-->
-
-
-
-
-		<!--		&lt;!&ndash; Testing &ndash;&gt;-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-test</artifactId>-->
-<!--			<scope>test</scope>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.security</groupId>-->
-<!--			<artifactId>spring-security-test</artifactId>-->
-<!--			<scope>test</scope>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>junit</groupId>-->
-<!--			<artifactId>junit</artifactId>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>org.junit.jupiter</groupId>-->
-<!--			<artifactId>junit-jupiter</artifactId>-->
-<!--		</dependency>-->
 	</dependencies>
 
 	<build>
